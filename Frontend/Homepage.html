@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Default</title>
+    </head>
+    <body>
+        <h2>Home</h2>
+        <h2>Foul Tarnished in search of  the elden Ring</h2>
+        <button type="signup" id ="signup">Signup</button>
+        <button type="login" id="login">Login</button>
+    </body>
+    <p id="message">
+        <script>
+            document.getElementById("signup").addEventListener("click", () => {
+                window.location.href="server.html";
+            })
+
+            document.getElementById("login").addEventListener("click", ()=>{
+                window.location.href="login.html";
+            })
+        </script>
+    </p>
+
+</html>
